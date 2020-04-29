@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Happening Example Site</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/672f9a7669.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<header>
+		<a href="index.html" class="site-logo">Happening</a>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="current-page-primary" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<div class="contact-page">
+
+			<h1 class="primary-headings">Let's Connect!</h1>
+
+			<p>We are always looking for new projects to work on and people to collaborate with. For business inquiries, please email Jason at jason.manheim@happeningevents.com. Otherwise, feel free to reach us by filling out the form below!</p>
+
+			<form class="contact-form" method="post" action="">
+				
+				<label class="field-label" for="standard-text">Name*</label>
+				<input class="form-field" type="text" id="standard-text" name="standard" placeholder="e.g. Jane Smith" required>
+
+				<label class="field-label" for="standard-text">Subject*</label>
+				<input class="form-field" type="text" id="standard-text"  name="standard" placeholder="e.g. Pricing Inquiry" required>
+
+				<label class="field-label" for="standard-text">Your Email Address*</label>
+				<input class="form-field" type="text" id="standard-text"  name="standard" placeholder="e.g. jane.smith@gmail.com" required>
+
+				<label class="field-label" for="standard-textarea">Message*</label>
+				<textarea class="form-field" id="standard-textarea" name="standard" placeholder="Enter Your Message Here" rows="8" required></textarea>
+
+				<label class="field-label">Best Contact Method*</label>
+				<select class="form-field">
+					<option value="" selected disabled hidden>Choose</option>
+					<option>Email</option>
+					<option>Phone</option>
+					<option>Other</option>
+				</select>
+
+				<button class="submit-button">Submit</button>
+
+			</form>
+
+		</div>
+
+	</main>
+
+	<footer>
+		
+		<div class="footer-text">
+			<p>2020 &copy; Happening Inc.</p>
+
+			<p>Founded in 2017, Happening Events Production is an event design, production and planning company based in Austin, Texas. From start to finish, client satisfaction and achieving event goals are our top priority. We work together to create an customized, memorable experience that leaves your guests wanting more.</p>
+
+			<p>Let us turn your brilliant idea into a brilliant event.</p>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="https://google.com">Facebook</a></li>
+				<li><a href="https://google.com">Instagram</a></li>
+				<li><a href="https://google.com">Twitter</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+</body>
+
+</html>
